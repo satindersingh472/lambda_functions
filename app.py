@@ -14,3 +14,15 @@ my_second("this is the lambda output")
 true_false = lambda number: True if number > 10 else False
 
 print(true_false(13))
+
+
+print_greetings = lambda : print("Good morning!!")
+
+print_greetings()
+
+
+our_list = [1,3,4,5,6]
+
+double = map(lambda input: input *2, our_list)
+
+print(list(double))
